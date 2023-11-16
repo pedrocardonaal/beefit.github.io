@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="icon/favicon.ico">
+    <title>Bee-Fit | GYM</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+ 
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <p><i class="fa fa-envelope mr-2"></i>bee.fit003@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-primary px-3" href="https://www.facebook.com/profile.php?id=100092522461873&mibextid=ZbWKwL">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-primary px-3" href="https://twitter.com/bee_fit_0">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-primary px-3" href="https://www.instagram.com/bee_fit_0/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-primary"><span class="text-dark">BEE-</span>FIT</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Acerca</a>
+                        <a href="InicioSecion/CrearCuenta1.php" class="nav-item nav-link">Crear Cuenta</a>
+                        <a href="InicioSecion/login.php" class="nav-item nav-link">Iniciar Sesion</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid page-header">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+                <h3 class="display-4 text-white text-uppercase">Ejercicio</h3>
+                <div class="d-inline-flex text-white">
+                    <p class="m-0 text-uppercase"><a class="text-white" href="index.html">Inicio</a></p>
+                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                    <p class="m-0 text-uppercase">GIMNASIO</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+<!-- Datos Start -->
+<style>
+   * {
+box-sizing: border-box;
+    }
+    .box{   
+    margin: auto;
+    display: inside;
+    flex-direction: row;
+    background: #fff;
+    padding: 50px 15px;
+    width: 90%;
+    
+    text-align: center;
+    border-radius: 5px;
+    animation: show 1s;
+    }
+
+    img{
+        align-items: center;
+        max-width: fit-content;
+        padding: 15px 7px;
+        image-rendering: auto;
+        margin: auto;
+    }
+
+    .btnn{
+        font-family: Mali;
+    color: black;
+    background: #fff;
+    padding: 70px 0px;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 5px;
+    animation: show 1s;
+        font-size: 30px;
+        text-align: justify;
+
+
+        
+    }
+
+       .question{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+               .question:hover {
+                 color:#7AB730;
+                text-decoration: none;
+                   background-color:rgba(222, 223, 220, 0.772) ;
+       }
+    .question{
+            transition: all .5s;
+            padding: 70px ;
+            border-radius: 35px;
+            margin: 15px;
+            letter-spacing: 2px;
+            
+    }
+    
+    .ab{
+        margin: auto;
+    background: #fff;
+    padding: 50px 15px;
+    width: 90%;
+    overflow: hidden;
+    text-align: justify;
+    border-radius: 5px;
+    animation: show 1s;
+    }
+    .answer {
+  padding: 10px;
+  background-color: #f8f8f8;
+  margin: auto;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        background: #fff;
+        text-align: left;
+        width: 90%;
+        overflow: hidden;
+        text-align: justify;
+        border-radius: 5px;
+        animation: show 1s;
+             font-family: Arial;
+             padding: 50px;
+             padding-left: 30px;
+             
+}
+</style>
+<div class="box">
+ 
+    <center><h2>Ejercicios registados en bee fit</h2></center>
+</div>
+
+
+<center>
+<div class="faq">
+  <h1 class="question">Cardio</h1>
+  <div class="answer" style="display: none;">
+    <div class="btnn">
+    <p><h9> <h2>Cuerda</h2> <center><img src= "https://3.bp.blogspot.com/-ri8owFtzbZ0/WosdWfKbGwI/AAAAAAAAbHo/7ARtgvZPnMwXr3002fFfaCJShRqKLg_wwCKgBGAs/s1600/SALTAR-LA-CUERDA.gif"  width="350" height="350"></center> 
+         En términos generales, saltar 10 minutos al día es un buen punto de partida. Si eres principiante, puedes fraccionar estos diez minutos en series de 2 minutos, e introducir pausas de 1 minuto para recuperar.<br><br> 
+         
+         <br><h2>Bicicleta</h2> <center><img src= "https://media.tenor.com/BlX7MtdLF-cAAAAC/immersiva-spinning.gif"width="350" height="350"> </center><br>
+        Se utiliza un freno que utiliza un rozamiento mecánico o magnético para hacer esfuerzo y no pedalear en vacío. 
+        También tiene una rueda de varios kg que hace que el pedaleo sea más suave. <br> 
+        
+        <br><h2>Caminadora</h2>
+        <center><img src="https://cdn.dribbble.com/users/2166291/screenshots/4647092/__-1_2.gif" width="400" height="400"></center><br>
+        Las cintas de correr eléctricas trabajan con un motor eléctrico y permiten modificar tanto la velocidad como el ángulo de inclinación sin necesidad de detener la marcha. Tras la selección inicial del corredor, el ritmo de carrera lo marca la cinta
+    </h9></p>
+  </div>
+</div>
+
+<div class="faq">
+  <h1 class="question">Pierna</h1>
+  <div class="answer" style="display: none;">
+    <div class="btnn">
+        <h2>Extension de cuadricep</h2>
+        <center><img src="https://i.pinimg.com/originals/7b/b5/39/7bb53911b51282ff4298a085fa5aa790.gif" width="400" height="400"></center><br>
+        Para comenzar, puedes realizar entre 8 y 12 repeticiones para 3 series. Un buen consejo para este ejercicio es no usar un peso que sea demasiado pesado al principio. Incluso si puedes realizar el movimiento con un peso mayor, primero debes centrarte en realizar la técnica correcta. 
+       
+        <br><br><h2>Prensa</h2>
+    <center><img src="https://www.entrenamientos.com/media/cache/exercise_750/uploads/exercise/prensa-de-piernas-inclinada-init-pos-4016.png" width="400" height="400"></center><br>
+      Colócate en la prensa y recárgate totalmente en el respaldo, sin arquear la espalda. mantén apoyada la cabeza en el respaldo de la máquina en todo momento, luego  sitúa los pies sobre la plancha con una posición a la altura de los hombros, despues empuja un poco la plataforma y libera los seguros de la máquina, coloca las manos en las agarraderas laterales y finalmemte flexiona las rodillas. Estando una vez en la ejecución estira las piernas empujando la prensa hacia arriba y evita llegar a un estiramiento completo, procura dejar una ligera flexión para proteger las rodillas y enfocar el esfuerzo en los músculos.
+
+      <br><br><h2>Sentadilla con barra</h2>
+    <center> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNanR9Y-uOxnmBP_forWpcNp4ipc0K7IM-hRjj1chnMc1my1-rc0I0e-hMXjiQzYkdLY&usqp=CAU" width="400" height="400"></center><br>
+       .Para hacer las sentadillas con barra básicas de forma correcta es importante que tengas en cuenta estos aspectos:Espalda recta, evitando curvar la espalda. Mantener la espalda lo más vertical que se pueda. El peso de la barra debe caer en la parte media del pie (ni muy a la punta ni muy al talón).Los pies y rodillas en posición natural. Sin abrir demasiado las piernas ni estando estrictamente paralelo. Evitar que las rodillas se aproximen al bajar, ni que se doblen los tobillos. 
+
+       <br><br><h2>Abductores</h2> 
+    <center><img src="https://us.123rf.com/450wm/lioputra/lioputra2112/lioputra211200293/180237363-mujer-haciendo-ejercicio-usando-la-m%C3%A1quina-de-aducci%C3%B3n-del-muslo-interno-aductor-ilustraci%C3%B3n-de.jpg?ver=6" width="400" height="400"></center><br>
+  Las máquinas de abductores/aductores son las que permiten trabajar la musculatura separadora/aproximadora de la cadera, es decir, tanto la cara interna como la cara externa del muslo. La diferencia entre ambas máquinas se encuentra en la dirección en la que debemos ejercer la fuerza. Para su tecnica debemos separar las piernas al máximo mientras empujamos los cojines que están sobre la cara externa de nuestras piernas y después, regresar lentamente a la posición inicial hasta juntar las piernas nuevamente.
+  </div></div>
+
+  <div class="faq">
+  <h1 class="question">Torax</h1>
+  <div class="answer" style="display: none;">
+    <div class="btnn">
+        <h2>Press en banca</h2>
+        <center><img src="https://j.gifs.com/KdpkMX.gif" width="400" height="400"></center><br>
+        Para un agarre correcto en el press de banca, sujeta la barra a la altura de los hombros Las muñecas se mantienen rectas y las manos tienen que rodear la barra para un agarre firme. Después se inicia el movimiento. Toma aire profundamente y contrae al mismo tiempo la espalda, los glúteos y los omóplatos fijos. 
+   
+        <br><br> <h2>Dorsales</h2> 
+        <center><img src="https://t1.uc.ltmcdn.com/es/posts/5/8/8/como_ejercitar_dorsales_sin_pesas_27885_orig.jpg" width="400" height="400"></center><br>
+           Para hacer los dorsales primero coloca el asiento a una altura que le permita a tus muslos apoyarse cómodamente debajo de los cojines de apoyo, siéntate en el asiento con los muslos debajo de los cojines para estabilizarte y evitar que las rodillas se levanten durante el ejercicio, despues simplemente levántate para agarrar la barra y, luego, empuja con el peso de tu cuerpo hasta que puedas asegurar los muslos debajo de los cojines.
+   
+           <br><br><h2>Polea</h2>
+        <center><img src="https://www.deportrainer.com/img/cms/remo-gironda-polea-baja.gif" width="400" height="400"></center><br>
+            El remo lo podemos hacer con agarre abierto o cerrado.Para su realización, debemos sentarnos enfrente a la polea, que colocaremos baja en este caso. Los pies los apoyaremos en los soportes adecuados para ellos, y el trasero lo echaremos hacia atrás lo máximo posible, de manera que la espalda la mantengamos recta.
+  </div></div>
+
+  <div class="faq">
+  <h1 class="question">Brazo</h1>
+  <div class="answer" style="display: none;">
+    <div class="btnn">
+        <h2>Curl de bicep</h2>
+        <center><img src="https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif" width="400" height="400"></center><br>
+        Sujeta las pesas con un agarre supino (las palmas de las manos mirando hacia arriba) y asegúrate de que tu antebrazo y el suelo están colocados de forma paralela. Aprieta el bíceps para realizar el curl y baja la mancuerna. Después, vuelve a la posición inicial manteniendo el control. Repite con el otro brazo. 
+   
+        <br><br><h2>Press militar</h2> 
+        <center> <img src="https://doriangym.es/wp-content/uploads/2021/11/ejercicio-press-militar.gif" width="400" height="400"></center><br>
+            Las manos deben situarse a una anchura algo superior a la de los hombros. Sacamos la barra de su soporte y la colocamos sobre la parte alta de nuestro pecho, a la altura de nuestras clavículas. Esta será la posición de inicio del movimiento. Mantenemos la espalda recta y bien apoyada en el respaldo del banco 
+   
+            <br><br><h2>Predicador</h2> 
+        <center><img src="https://us.123rf.com/450wm/lioputra/lioputra2011/lioputra201100039/158681550-hombre-haciendo-curl-de-predicador-con-mancuernas-de-un-brazo-ilustraci%C3%B3n-de-vector-plano-aislado.jpg?ver=6" width="400" height="400"></center><br>
+           Como ejercicio, el curl predicador trabaja de manera directa el braquial, que se encuentra en la parte baja de tus bíceps. Primeramente, ayuda en la flexión de tu codo, este musculo se trabaja haciendo el predicador de pie o sentado, usando una barra o mancuernas. El curl en banco predicador se trata de cambiar el ángulo de la parte superior del brazo en relación con el torso y abrir ese ángulo de la parte superior del brazo, para que luego puedas sacar los hombros del movimiento.
+</div></div>
+  </div>
+</div>
+<style>
+        .survey-container {
+  width: 450px;
+  height: 340px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+</style>
+
+<img src="img/bodygym.jpg"> <h1>Mensualidad $300, Inscripcion Gratis</h1><br>
+<div class="survey-container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58445.96557190706!2d-99.20973133491309!3d23.716234304397407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x867953212094eadf%3A0x3cdb014d91bcb428!2sBody%20Gym!5e0!3m2!1ses-419!2smx!4v1687159684462!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div> <br> <a class="text-primary px-3" href="https://www.facebook.com/profile.php?id=100057588244378&mibextid=LQQJ4d">
+    <i class="fab fa-facebook-f"></i>
+</a>
+<p><i class="fa fa-envelope mr-2"></i>834-102-1827</p>
+<script type="text/javascript">
+const questions = document.getElementsByClassName("question");
+for (let i = 0; i < questions.length; i++) {
+  questions[i].addEventListener("click", function() {
+    const answer = questions[i].nextElementSibling;
+    console.log(answer.style.display);
+    if (answer.style.display === "none") {
+        const answer1 = questions[0].nextElementSibling;
+ const answer2 = questions[1].nextElementSibling;
+ const answer3 = questions[2].nextElementSibling;
+ const answer4 = questions[3].nextElementSibling;
+ answer1.style.display = "none";answer2.style.display = "none";answer3.style.display = "none";answer4.style.display = "none";
+      answer.style.display = "block";
+    }  else {
+      answer.style.display = "none";
+    }
+  });
+}
+ 
+</script>
+<style type="text/css">
+    .faq {
+  margin-bottom: 10px;
+}
+
+.question {
+  cursor: pointer;
+  background-color: #F4D03F;
+  padding: 10px;
+}
+
+</style>
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-primary"><span class="text-white">BEE-</span>FIT</h1>
+                </a>
+                <p>Somos un grupo conformado de 4 participantes ubicados en el corazon de Tamaulipas, Mexico.</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Bee a follower</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-outline-primary btn-square mr-2" href="https://twitter.com/bee_fit_0"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="https://www.facebook.com/profile.php?id=100092522461873&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/bee_fit_0/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Esenciales Bee-Fit</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                    <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>Acerca</a>
+                    <a class="text-white-50 mb-2" href="InicioSecion/CrearCuenta1.php"><i class="fa fa-angle-right mr-2"></i>Crear Cuenta</a>
+                    <a class="text-white-50 mb-2" href="InicioSecion/login.php"><i class="fa fa-angle-right mr-2"></i>Iniciar Secion</a>
+                    <a class="text-white-50 mb-2" href="InicioSecion/recuperarcuenta.php"><i class="fa fa-angle-right mr-2"></i>Recuperar Cuenta</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Apartados Bee-Fit</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>Acerca</a>
+                    <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                    <a class="text-white-50 mb-2" href="meditacion.html"><i class="fa fa-angle-right mr-2"></i>Meditacion</a>
+                    <a class="text-white-50 mb-2" href="VidaSaludable.html"><i class="fa fa-angle-right mr-2"></i>Vida Saludable</a>
+                    <a class="text-white-50 mb-2" href="Ejercicio.html"><i class="fa fa-angle-right mr-2"></i>Ejercicio</a>
+                    <a class="text-white-50 mb-2" href="Alimentacion.html"><i class="fa fa-angle-right mr-2"></i>Alimentacion</a>
+                    <a class="text-white-50 mb-2" href="imc.html"><i class="fa fa-angle-right mr-2"></i>Imc</a>
+                    <a class="text-white-50" href="descanso.html"><i class="fa fa-angle-right mr-2"></i>Descanso</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Bee in touch</h5>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>CBTis 271, Victoria, Tamaulipas, Mexico</p>
+                <p><i class="fa fa-envelope mr-2"></i>bee.fit003@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
